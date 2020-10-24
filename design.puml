@@ -1,0 +1,163 @@
+@startuml
+
+hide empty member
+
+
+class GS {
+    + {static} double tAnim;
+    + {static} float vDist
+    + {static} float theta
+    + {static} float phi
+    + {static} Set<Character> keysPressed
+    ...
+}
+
+class Material {
+    + Vector3f ambient;
+    + Vector3f diffuse;
+    + Vector3f specular;
+    + float shininess;
+    + Material(Vector3f a, Vector3f d, Vector3f s, float sh)
+    + void use(GL2 gl)
+}
+
+interface Renderable {
+    void render(GL2 gl, GLUT glut, double tAnim, double dt);
+}
+
+class ShaderProgram {
+    - int programID
+    - String shaderName
+   + int getProgramID()
+   + void useProgram(GL2 gl)
+   + void setUniform(GL2 gl, String name, float value)
+      + void setUniform(GL2 gl, String name, int value)
+         + void setUniform(GL2 gl, String name, boolean value)
+ }
+
+class Cube #lightgreen implements Renderable 
+
+class ShaderPrograms #lightgreen {
+    + {static} void setupShaders(GL2 gl, GLU glu)
+    +ShaderProgram useDefaultShader(GL2 gl)
+    }
+
+Cube --> ShaderPrograms 
+
+ShaderProgram <-  ShaderPrograms: defaultShader
+
+class TextureImg {
+    + TextureImg(String path)
+    + void bind(GL2 gl) 
+}
+
+class Camera  {
+  # Vector3f eye
+  # Vector3f center
+  # Vector3f up
+  + void apply(GL2 gl, GLU glu)
+}
+
+note left of Camera
+apply(...)
+  glMatrixMode(GL_MODELVIEW)
+  glLoadIdentity()
+  <i>// set head light
+  glLightfv(...) 
+  <i>// set Camera parameters
+  glLookAt(eye,center,up)
+end note
+
+class Renderer  {
+    + {abstract} void initObjects();
+    + void display(GLAutoDrawable glAutoDrawable)
+}
+
+note left of Renderer
+   display() 
+        dt = <i>render time of last frame
+        <i>// set sky color
+        <b>if</b> (DAYNIGHT==0) glClearColor(lightBlue);
+        <b>else</b> glClearColor(darkBlue); 
+        camera.apply(...)
+        <b>for</b> (Renderable o : objects) {
+            o.render(gl, glut, GS.tAnim, dt);
+        }
+end note
+
+Renderer *--  "*" Renderable : objects
+
+Renderer --> Camera
+
+class Base {
++ void setRenderer(Renderer r)
+}
+
+MainFrame <- Base
+MainFrame --> GLJPanel
+MainFrame --> Renderer
+JPanel <- MainFrame : checkBoxPanel
+ComboBox "*" <-MainFrame
+JPanel <- MainFrame : slidersPanel
+GLJPanel -->MouseEventListener
+GLJPanel -->KeyEventListener
+
+note bottom of KeyEventListener
+ adds keys to GS.keysPressed
+end note
+
+note bottom of MouseEventListener
+adapts vDist, theta, and phi in GS 
+end note
+
+class Sandbox #lightgreen {
+  + static void main(String[] a)
+ }
+ 
+class SandboxRenderer #lightgreen
+
+Base <|--- Sandbox
+ 
+enum SliderID #lightgreen {
+   SLIDERA
+   SLIDERB
+}
+
+enum ComboBoxID #lightgreen{ 
+   VIEWMODE
+   DAYNIGHT 
+ }
+ 
+enum CheckBoxID #lightgreen {
+  SHOWAXIS
+  SHOWTERRAIN
+  ...
+ }
+
+Sandbox +-- SliderID
+Sandbox +-- ComboBoxID
+Sandbox +-- CheckBoxID
+
+class FixedCamera #lightgreen
+class FirstPersonCamera #lightgreen {
+    +FirstPersonCamera()
+    +void apply(GL2 gl, GLU glu)
+}
+class FlyingCamera #lightgreen {
+    +FirstPersonCamera(Vector3f eye, Vector3f center, Vector3f up)
+    +void apply(GL2 gl, GLU glu)
+}
+
+Camera <|-- FixedCamera 
+Camera <|-- FlyingCamera
+Camera <|-- FirstPersonCamera
+
+Renderer <|-- SandboxRenderer
+
+hide JPanel
+hide ComboBox
+hide TextureImg
+
+GS -[hidden]- MainFrame
+Material -[hidden] GS
+@enduml

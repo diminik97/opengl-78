@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1009px" preserveAspectRatio="none" style="width:1798px;height:1009px;" version="1.1" viewBox="0 0 1798 1009" width="1798px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1jdf4o85r2774" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--class GS-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="124.8281" style="stroke: #A80036; stroke-width: 1.5;" width="195" x="1035" y="8"/>
+        <ellipse cx="1119.75" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1122.7188,29.6406 Q1122.1406,29.9375 1121.5,30.0781 Q1120.8594,30.2344 1120.1563,30.2344 Q1117.6563,30.2344 1116.3281,28.5938 Q1115.0156,26.9375 1115.0156,23.8125 Q1115.0156,20.6875 1116.3281,19.0313 Q1117.6563,17.375 1120.1563,17.375 Q1120.8594,17.375 1121.5,17.5313 Q1122.1563,17.6875 1122.7188,17.9844 L1122.7188,20.7031 Q1122.0938,20.125 1121.5,19.8594 Q1120.9063,19.5781 1120.2813,19.5781 Q1118.9375,19.5781 1118.25,20.6563 Q1117.5625,21.7188 1117.5625,23.8125 Q1117.5625,25.9063 1118.25,26.9844 Q1118.9375,28.0469 1120.2813,28.0469 Q1120.9063,28.0469 1121.5,27.7813 Q1122.0938,27.5 1122.7188,26.9219 L1122.7188,29.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="17" x="1140.25" y="28.1543">GS</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1036" x2="1229" y1="40" y2="40"/>
+        <ellipse cx="1046" cy="51.9023" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="77" x="1055" y="54.2104">double tAnim;</text>
+        <line style="stroke: #000000; stroke-width: 1.0;" x1="1055" x2="1132" y1="56.2104" y2="56.2104"/>
+        <ellipse cx="1046" cy="64.707" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="56" x="1055" y="67.0151">float vDist</text>
+        <line style="stroke: #000000; stroke-width: 1.0;" x1="1055" x2="1111" y1="69.0151" y2="69.0151"/>
+        <ellipse cx="1046" cy="77.5117" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="57" x="1055" y="79.8198">float theta</text>
+        <line style="stroke: #000000; stroke-width: 1.0;" x1="1055" x2="1112" y1="81.8198" y2="81.8198"/>
+        <ellipse cx="1046" cy="90.3164" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="45" x="1055" y="92.6245">float phi</text>
+        <line style="stroke: #000000; stroke-width: 1.0;" x1="1055" x2="1100" y1="94.6245" y2="94.6245"/>
+        <ellipse cx="1046" cy="103.1211" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="169" x="1055" y="105.4292">Set&lt;Character&gt; keysPressed</text>
+        <line style="stroke: #000000; stroke-width: 1.0;" x1="1055" x2="1224" y1="107.4292" y2="107.4292"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="12" x="1055" y="118.2339">...</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1036" x2="1229" y1="124.8281" y2="124.8281"/>
+        <!--class Material-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="124.8281" style="stroke: #A80036; stroke-width: 1.5;" width="313" x="652" y="8"/>
+        <ellipse cx="779.25" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M782.2188,29.6406 Q781.6406,29.9375 781,30.0781 Q780.3594,30.2344 779.6563,30.2344 Q777.1563,30.2344 775.8281,28.5938 Q774.5156,26.9375 774.5156,23.8125 Q774.5156,20.6875 775.8281,19.0313 Q777.1563,17.375 779.6563,17.375 Q780.3594,17.375 781,17.5313 Q781.6563,17.6875 782.2188,17.9844 L782.2188,20.7031 Q781.5938,20.125 781,19.8594 Q780.4063,19.5781 779.7813,19.5781 Q778.4375,19.5781 777.75,20.6563 Q777.0625,21.7188 777.0625,23.8125 Q777.0625,25.9063 777.75,26.9844 Q778.4375,28.0469 779.7813,28.0469 Q780.4063,28.0469 781,27.7813 Q781.5938,27.5 782.2188,26.9219 L782.2188,29.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="799.75" y="28.1543">Material</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="653" x2="964" y1="40" y2="40"/>
+        <ellipse cx="663" cy="51.9023" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="100" x="672" y="54.2104">Vector3f ambient;</text>
+        <ellipse cx="663" cy="64.707" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="672" y="67.0151">Vector3f diffuse;</text>
+        <ellipse cx="663" cy="77.5117" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="672" y="79.8198">Vector3f specular;</text>
+        <ellipse cx="663" cy="90.3164" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="672" y="92.6245">float shininess;</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="653" x2="964" y1="99.2188" y2="99.2188"/>
+        <ellipse cx="663" cy="111.1211" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="287" x="672" y="113.4292">Material(Vector3f a, Vector3f d, Vector3f s, float sh)</text>
+        <ellipse cx="663" cy="123.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="672" y="126.2339">void use(GL2 gl)</text>
+        <!--class Renderable-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="60.8047" style="stroke: #A80036; stroke-width: 1.5;" width="323" x="971" y="566.5"/>
+        <ellipse cx="1094.75" cy="582.5" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1090.6719,578.2656 L1090.6719,576.1094 L1098.0625,576.1094 L1098.0625,578.2656 L1095.5938,578.2656 L1095.5938,586.3438 L1098.0625,586.3438 L1098.0625,588.5 L1090.6719,588.5 L1090.6719,586.3438 L1093.1406,586.3438 L1093.1406,578.2656 L1090.6719,578.2656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="67" x="1115.25" y="586.6543">Renderable</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="972" x2="1293" y1="598.5" y2="598.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="972" x2="1293" y1="606.5" y2="606.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="311" x="977" y="620.7104">void render(GL2 gl, GLUT glut, double tAnim, double dt);</text>
+        <!--class ShaderProgram-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="137.6328" style="stroke: #A80036; stroke-width: 1.5;" width="319" x="776" y="863"/>
+        <ellipse cx="882.25" cy="879" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M885.2188,884.6406 Q884.6406,884.9375 884,885.0781 Q883.3594,885.2344 882.6563,885.2344 Q880.1563,885.2344 878.8281,883.5938 Q877.5156,881.9375 877.5156,878.8125 Q877.5156,875.6875 878.8281,874.0313 Q880.1563,872.375 882.6563,872.375 Q883.3594,872.375 884,872.5313 Q884.6563,872.6875 885.2188,872.9844 L885.2188,875.7031 Q884.5938,875.125 884,874.8594 Q883.4063,874.5781 882.7813,874.5781 Q881.4375,874.5781 880.75,875.6563 Q880.0625,876.7188 880.0625,878.8125 Q880.0625,880.9063 880.75,881.9844 Q881.4375,883.0469 882.7813,883.0469 Q883.4063,883.0469 884,882.7813 Q884.5938,882.5 885.2188,881.9219 L885.2188,884.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="902.75" y="883.1543">ShaderProgram</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="777" x2="1094" y1="895" y2="895"/>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="784" y="903.9023"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="796" y="909.2104">int programID</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="784" y="916.707"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="796" y="922.0151">String shaderName</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="777" x2="1094" y1="928.6094" y2="928.6094"/>
+        <ellipse cx="787" cy="940.5117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="796" y="942.8198">int getProgramID()</text>
+        <ellipse cx="787" cy="953.3164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="796" y="955.6245">void useProgram(GL2 gl)</text>
+        <ellipse cx="787" cy="966.1211" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="273" x="796" y="968.4292">void setUniform(GL2 gl, String name, float value)</text>
+        <ellipse cx="787" cy="978.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="262" x="796" y="981.2339">void setUniform(GL2 gl, String name, int value)</text>
+        <ellipse cx="787" cy="991.7305" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="293" x="796" y="994.0386">void setUniform(GL2 gl, String name, boolean value)</text>
+        <!--class Cube-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="64" x="1321.5" y="743"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="64" x="1321.5" y="743"/>
+        <ellipse cx="1336.5" cy="759" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1339.4688,764.6406 Q1338.8906,764.9375 1338.25,765.0781 Q1337.6094,765.2344 1336.9063,765.2344 Q1334.4063,765.2344 1333.0781,763.5938 Q1331.7656,761.9375 1331.7656,758.8125 Q1331.7656,755.6875 1333.0781,754.0313 Q1334.4063,752.375 1336.9063,752.375 Q1337.6094,752.375 1338.25,752.5313 Q1338.9063,752.6875 1339.4688,752.9844 L1339.4688,755.7031 Q1338.8438,755.125 1338.25,754.8594 Q1337.6563,754.5781 1337.0313,754.5781 Q1335.6875,754.5781 1335,755.6563 Q1334.3125,756.7188 1334.3125,758.8125 Q1334.3125,760.9063 1335,761.9844 Q1335.6875,763.0469 1337.0313,763.0469 Q1337.6563,763.0469 1338.25,762.7813 Q1338.8438,762.5 1339.4688,761.9219 L1339.4688,764.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="1350.5" y="763.1543">Cube</text>
+        <!--class ShaderPrograms-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="264" x="1221.5" y="895"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="264" x="1221.5" y="895"/>
+        <ellipse cx="1296.75" cy="911" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1299.7188,916.6406 Q1299.1406,916.9375 1298.5,917.0781 Q1297.8594,917.2344 1297.1563,917.2344 Q1294.6563,917.2344 1293.3281,915.5938 Q1292.0156,913.9375 1292.0156,910.8125 Q1292.0156,907.6875 1293.3281,906.0313 Q1294.6563,904.375 1297.1563,904.375 Q1297.8594,904.375 1298.5,904.5313 Q1299.1563,904.6875 1299.7188,904.9844 L1299.7188,907.7031 Q1299.0938,907.125 1298.5,906.8594 Q1297.9063,906.5781 1297.2813,906.5781 Q1295.9375,906.5781 1295.25,907.6563 Q1294.5625,908.7188 1294.5625,910.8125 Q1294.5625,912.9063 1295.25,913.9844 Q1295.9375,915.0469 1297.2813,915.0469 Q1297.9063,915.0469 1298.5,914.7813 Q1299.0938,914.5 1299.7188,913.9219 L1299.7188,916.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="105" x="1317.25" y="915.1543">ShaderPrograms</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1222.5" x2="1484.5" y1="927" y2="927"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1222.5" x2="1484.5" y1="935" y2="935"/>
+        <ellipse cx="1232.5" cy="946.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="199" x="1241.5" y="949.2104">void setupShaders(GL2 gl, GLU glu)</text>
+        <line style="stroke: #000000; stroke-width: 1.0;" x1="1241.5" x2="1440.5" y1="951.2104" y2="951.2104"/>
+        <ellipse cx="1232.5" cy="959.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="238" x="1241.5" y="962.0151">ShaderProgram useDefaultShader(GL2 gl)</text>
+        <!--class Camera-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="99.2188" style="stroke: #A80036; stroke-width: 1.5;" width="175" x="761" y="547.5"/>
+        <ellipse cx="820.25" cy="563.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M823.2188,569.1406 Q822.6406,569.4375 822,569.5781 Q821.3594,569.7344 820.6563,569.7344 Q818.1563,569.7344 816.8281,568.0938 Q815.5156,566.4375 815.5156,563.3125 Q815.5156,560.1875 816.8281,558.5313 Q818.1563,556.875 820.6563,556.875 Q821.3594,556.875 822,557.0313 Q822.6563,557.1875 823.2188,557.4844 L823.2188,560.2031 Q822.5938,559.625 822,559.3594 Q821.4063,559.0781 820.7813,559.0781 Q819.4375,559.0781 818.75,560.1563 Q818.0625,561.2188 818.0625,563.3125 Q818.0625,565.4063 818.75,566.4844 Q819.4375,567.5469 820.7813,567.5469 Q821.4063,567.5469 822,567.2813 Q822.5938,567 823.2188,566.4219 L823.2188,569.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="840.75" y="567.6543">Camera</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="762" x2="935" y1="579.5" y2="579.5"/>
+        <polygon fill="none" points="772,586.4023,776,590.4023,772,594.4023,768,590.4023" style="stroke: #B38D22; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="781" y="593.7104">Vector3f eye</text>
+        <polygon fill="none" points="772,599.207,776,603.207,772,607.207,768,603.207" style="stroke: #B38D22; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="781" y="606.5151">Vector3f center</text>
+        <polygon fill="none" points="772,612.0117,776,616.0117,772,620.0117,768,616.0117" style="stroke: #B38D22; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="781" y="619.3198">Vector3f up</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="762" x2="935" y1="625.9141" y2="625.9141"/>
+        <ellipse cx="772" cy="637.8164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="781" y="640.1245">void apply(GL2 gl, GLU glu)</text>
+        <polygon fill="#FBFB77" filter="url(#f1jdf4o85r2774)" points="466,539,466,654.9297,691,654.9297,691,549,681,539,466,539" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="466,539,466,654.9297,691,654.9297,691,601,760.88,597,691,593,691,549,681,539,466,539" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="681" x2="681" y1="539" y2="549"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="691" x2="681" y1="549" y2="549"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="472" y="556.0669">apply(...)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="196" x="480" y="571.1997">glMatrixMode(GL_MODELVIEW)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="480" y="586.3325">glLoadIdentity()</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="480" y="601.4653"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="99" x="480" y="601.4653">// set head light</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="75" x="480" y="616.5981">glLightfv(...)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="480" y="631.731"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="164" x="480" y="631.731">// set Camera parameters</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="153" x="480" y="646.8638">glLookAt(eye,center,up)</text>
+        <!--class Renderer-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="284" x="990.5" y="352"/>
+        <ellipse cx="1099.25" cy="368" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1102.2188,373.6406 Q1101.6406,373.9375 1101,374.0781 Q1100.3594,374.2344 1099.6563,374.2344 Q1097.1563,374.2344 1095.8281,372.5938 Q1094.5156,370.9375 1094.5156,367.8125 Q1094.5156,364.6875 1095.8281,363.0313 Q1097.1563,361.375 1099.6563,361.375 Q1100.3594,361.375 1101,361.5313 Q1101.6563,361.6875 1102.2188,361.9844 L1102.2188,364.7031 Q1101.5938,364.125 1101,363.8594 Q1100.4063,363.5781 1099.7813,363.5781 Q1098.4375,363.5781 1097.75,364.6563 Q1097.0625,365.7188 1097.0625,367.8125 Q1097.0625,369.9063 1097.75,370.9844 Q1098.4375,372.0469 1099.7813,372.0469 Q1100.4063,372.0469 1101,371.7813 Q1101.5938,371.5 1102.2188,370.9219 L1102.2188,373.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="1119.75" y="372.1543">Renderer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="991.5" x2="1273.5" y1="384" y2="384"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="991.5" x2="1273.5" y1="392" y2="392"/>
+        <ellipse cx="1001.5" cy="403.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="98" x="1010.5" y="406.2104">void initObjects();</text>
+        <ellipse cx="1001.5" cy="416.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="258" x="1010.5" y="419.0151">void display(GLAutoDrawable glAutoDrawable)</text>
+        <polygon fill="#FBFB77" filter="url(#f1jdf4o85r2774)" points="610,316,610,462.1953,921,462.1953,921,326,911,316,610,316" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="610,316,610,462.1953,921,462.1953,921,393,990.43,389,921,385,921,326,911,316,610,316" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="911" x2="911" y1="316" y2="326"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="921" x2="911" y1="326" y2="326"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="54" x="616" y="333.0669">display()</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28" x="636" y="348.1997">dt =</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="160" x="668" y="348.1997">render time of last frame</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="636" y="363.3325"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="93" x="636" y="363.3325">// set sky color</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="636" y="378.4653"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="10" x="636" y="378.4653">if</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="256" x="650" y="378.4653">(DAYNIGHT==0) glClearColor(lightBlue);</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="636" y="393.5981"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="30" x="636" y="393.5981">else</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="147" x="670" y="393.5981">glClearColor(darkBlue);</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="636" y="408.731">camera.apply(...)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="636" y="423.8638"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="21" x="636" y="423.8638">for</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="164" x="661" y="423.8638">(Renderable o : objects) {</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="201" x="652" y="438.9966">o.render(gl, glut, GS.tAnim, dt);</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="636" y="454.1294">}</text>
+        <!--class Base-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="60.8047" style="stroke: #A80036; stroke-width: 1.5;" width="190" x="1338.5" y="194"/>
+        <ellipse cx="1413.75" cy="210" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1416.7188,215.6406 Q1416.1406,215.9375 1415.5,216.0781 Q1414.8594,216.2344 1414.1563,216.2344 Q1411.6563,216.2344 1410.3281,214.5938 Q1409.0156,212.9375 1409.0156,209.8125 Q1409.0156,206.6875 1410.3281,205.0313 Q1411.6563,203.375 1414.1563,203.375 Q1414.8594,203.375 1415.5,203.5313 Q1416.1563,203.6875 1416.7188,203.9844 L1416.7188,206.7031 Q1416.0938,206.125 1415.5,205.8594 Q1414.9063,205.5781 1414.2813,205.5781 Q1412.9375,205.5781 1412.25,206.6563 Q1411.5625,207.7188 1411.5625,209.8125 Q1411.5625,211.9063 1412.25,212.9844 Q1412.9375,214.0469 1414.2813,214.0469 Q1414.9063,214.0469 1415.5,213.7813 Q1416.0938,213.5 1416.7188,212.9219 L1416.7188,215.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="1434.25" y="214.1543">Base</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1339.5" x2="1527.5" y1="226" y2="226"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1339.5" x2="1527.5" y1="234" y2="234"/>
+        <ellipse cx="1349.5" cy="245.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="164" x="1358.5" y="248.2104">void setRenderer(Renderer r)</text>
+        <!--class MainFrame-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="1082.5" y="208.5"/>
+        <ellipse cx="1097.5" cy="224.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1100.4688,230.1406 Q1099.8906,230.4375 1099.25,230.5781 Q1098.6094,230.7344 1097.9063,230.7344 Q1095.4063,230.7344 1094.0781,229.0938 Q1092.7656,227.4375 1092.7656,224.3125 Q1092.7656,221.1875 1094.0781,219.5313 Q1095.4063,217.875 1097.9063,217.875 Q1098.6094,217.875 1099.25,218.0313 Q1099.9063,218.1875 1100.4688,218.4844 L1100.4688,221.2031 Q1099.8438,220.625 1099.25,220.3594 Q1098.6563,220.0781 1098.0313,220.0781 Q1096.6875,220.0781 1096,221.1563 Q1095.3125,222.2188 1095.3125,224.3125 Q1095.3125,226.4063 1096,227.4844 Q1096.6875,228.5469 1098.0313,228.5469 Q1098.6563,228.5469 1099.25,228.2813 Q1099.8438,228 1100.4688,227.4219 L1100.4688,230.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="1111.5" y="228.6543">MainFrame</text>
+        <!--class GLJPanel-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="85" x="309" y="373"/>
+        <ellipse cx="324" cy="389" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M326.9688,394.6406 Q326.3906,394.9375 325.75,395.0781 Q325.1094,395.2344 324.4063,395.2344 Q321.9063,395.2344 320.5781,393.5938 Q319.2656,391.9375 319.2656,388.8125 Q319.2656,385.6875 320.5781,384.0313 Q321.9063,382.375 324.4063,382.375 Q325.1094,382.375 325.75,382.5313 Q326.4063,382.6875 326.9688,382.9844 L326.9688,385.7031 Q326.3438,385.125 325.75,384.8594 Q325.1563,384.5781 324.5313,384.5781 Q323.1875,384.5781 322.5,385.6563 Q321.8125,386.7188 321.8125,388.8125 Q321.8125,390.9063 322.5,391.9844 Q323.1875,393.0469 324.5313,393.0469 Q325.1563,393.0469 325.75,392.7813 Q326.3438,392.5 326.9688,391.9219 L326.9688,394.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53" x="338" y="393.1543">GLJPanel</text>
+        <!--class MouseEventListener-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="158" x="272.5" y="581"/>
+        <ellipse cx="287.5" cy="597" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M290.4688,602.6406 Q289.8906,602.9375 289.25,603.0781 Q288.6094,603.2344 287.9063,603.2344 Q285.4063,603.2344 284.0781,601.5938 Q282.7656,599.9375 282.7656,596.8125 Q282.7656,593.6875 284.0781,592.0313 Q285.4063,590.375 287.9063,590.375 Q288.6094,590.375 289.25,590.5313 Q289.9063,590.6875 290.4688,590.9844 L290.4688,593.7031 Q289.8438,593.125 289.25,592.8594 Q288.6563,592.5781 288.0313,592.5781 Q286.6875,592.5781 286,593.6563 Q285.3125,594.7188 285.3125,596.8125 Q285.3125,598.9063 286,599.9844 Q286.6875,601.0469 288.0313,601.0469 Q288.6563,601.0469 289.25,600.7813 Q289.8438,600.5 290.4688,599.9219 L290.4688,602.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="126" x="301.5" y="601.1543">MouseEventListener</text>
+        <!--class KeyEventListener-->
+        <rect fill="#FEFECE" filter="url(#f1jdf4o85r2774)" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="138" x="70.5" y="581"/>
+        <ellipse cx="85.5" cy="597" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M88.4688,602.6406 Q87.8906,602.9375 87.25,603.0781 Q86.6094,603.2344 85.9063,603.2344 Q83.4063,603.2344 82.0781,601.5938 Q80.7656,599.9375 80.7656,596.8125 Q80.7656,593.6875 82.0781,592.0313 Q83.4063,590.375 85.9063,590.375 Q86.6094,590.375 87.25,590.5313 Q87.9063,590.6875 88.4688,590.9844 L88.4688,593.7031 Q87.8438,593.125 87.25,592.8594 Q86.6563,592.5781 86.0313,592.5781 Q84.6875,592.5781 84,593.6563 Q83.3125,594.7188 83.3125,596.8125 Q83.3125,598.9063 84,599.9844 Q84.6875,601.0469 86.0313,601.0469 Q86.6563,601.0469 87.25,600.7813 Q87.8438,600.5 88.4688,599.9219 L88.4688,602.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="99.5" y="601.1543">KeyEventListener</text>
+        <polygon fill="#FBFB77" filter="url(#f1jdf4o85r2774)" points="6,746.5,6,771.6328,215,771.6328,215,756.5,205,746.5,6,746.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="6,746.5,6,771.6328,215,771.6328,215,756.5,205,746.5,116.6,746.5,136.77,613.05,108.6,746.5,6,746.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="205" x2="205" y1="746.5" y2="756.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="215" x2="205" y1="756.5" y2="756.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="188" x="12" y="763.5669">adds keys to GS.keysPressed</text>
+        <polygon fill="#FBFB77" filter="url(#f1jdf4o85r2774)" points="250.5,746.5,250.5,771.6328,490.5,771.6328,490.5,756.5,480.5,746.5,250.5,746.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="250.5,746.5,250.5,771.6328,490.5,771.6328,490.5,756.5,480.5,746.5,373.12,746.5,353.29,613.05,365.12,746.5,250.5,746.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="480.5" x2="480.5" y1="746.5" y2="756.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="490.5" x2="480.5" y1="756.5" y2="756.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="215" x="256.5" y="763.5669">adapts vDist, theta, and phi in GS</text>
+        <!--class Sandbox-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="60.8047" style="stroke: #A80036; stroke-width: 1.5;" width="174" x="1508.5" y="566.5"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="174" x="1508.5" y="566.5"/>
+        <ellipse cx="1564.25" cy="582.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1567.2188,588.1406 Q1566.6406,588.4375 1566,588.5781 Q1565.3594,588.7344 1564.6563,588.7344 Q1562.1563,588.7344 1560.8281,587.0938 Q1559.5156,585.4375 1559.5156,582.3125 Q1559.5156,579.1875 1560.8281,577.5313 Q1562.1563,575.875 1564.6563,575.875 Q1565.3594,575.875 1566,576.0313 Q1566.6563,576.1875 1567.2188,576.4844 L1567.2188,579.2031 Q1566.5938,578.625 1566,578.3594 Q1565.4063,578.0781 1564.7813,578.0781 Q1563.4375,578.0781 1562.75,579.1563 Q1562.0625,580.2188 1562.0625,582.3125 Q1562.0625,584.4063 1562.75,585.4844 Q1563.4375,586.5469 1564.7813,586.5469 Q1565.4063,586.5469 1566,586.2813 Q1566.5938,586 1567.2188,585.4219 L1567.2188,588.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="1584.75" y="586.6543">Sandbox</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1509.5" x2="1681.5" y1="598.5" y2="598.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1509.5" x2="1681.5" y1="606.5" y2="606.5"/>
+        <ellipse cx="1519.5" cy="618.4023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="148" x="1528.5" y="620.7104">static void main(String[] a)</text>
+        <!--class SandboxRenderer-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="144" x="1329.5" y="581"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="144" x="1329.5" y="581"/>
+        <ellipse cx="1344.5" cy="597" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1347.4688,602.6406 Q1346.8906,602.9375 1346.25,603.0781 Q1345.6094,603.2344 1344.9063,603.2344 Q1342.4063,603.2344 1341.0781,601.5938 Q1339.7656,599.9375 1339.7656,596.8125 Q1339.7656,593.6875 1341.0781,592.0313 Q1342.4063,590.375 1344.9063,590.375 Q1345.6094,590.375 1346.25,590.5313 Q1346.9063,590.6875 1347.4688,590.9844 L1347.4688,593.7031 Q1346.8438,593.125 1346.25,592.8594 Q1345.6563,592.5781 1345.0313,592.5781 Q1343.6875,592.5781 1343,593.6563 Q1342.3125,594.7188 1342.3125,596.8125 Q1342.3125,598.9063 1343,599.9844 Q1343.6875,601.0469 1345.0313,601.0469 Q1345.6563,601.0469 1346.25,600.7813 Q1346.8438,600.5 1347.4688,599.9219 L1347.4688,602.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="112" x="1358.5" y="601.1543">SandboxRenderer</text>
+        <!--class SliderID-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="79" x="1427" y="722"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="79" x="1427" y="722"/>
+        <ellipse cx="1442" cy="738" fill="#EB937F" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1446.1094,744 L1438.3906,744 L1438.3906,731.6094 L1446.1094,731.6094 L1446.1094,733.7656 L1440.8438,733.7656 L1440.8438,736.4375 L1445.6094,736.4375 L1445.6094,738.5938 L1440.8438,738.5938 L1440.8438,741.8438 L1446.1094,741.8438 L1446.1094,744 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="47" x="1456" y="742.1543">SliderID</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1428" x2="1505" y1="754" y2="754"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="46" x="1433" y="768.2104">SLIDERA</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="47" x="1433" y="781.0151">SLIDERB</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1428" x2="1505" y1="787.6094" y2="787.6094"/>
+        <!--class ComboBoxID-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="1541" y="722"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="1541" y="722"/>
+        <ellipse cx="1556" cy="738" fill="#EB937F" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1560.1094,744 L1552.3906,744 L1552.3906,731.6094 L1560.1094,731.6094 L1560.1094,733.7656 L1554.8438,733.7656 L1554.8438,736.4375 L1559.6094,736.4375 L1559.6094,738.5938 L1554.8438,738.5938 L1554.8438,741.8438 L1560.1094,741.8438 L1560.1094,744 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="1570" y="742.1543">ComboBoxID</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1542" x2="1649" y1="754" y2="754"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="1547" y="768.2104">VIEWMODE</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="1547" y="781.0151">DAYNIGHT</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1542" x2="1649" y1="787.6094" y2="787.6094"/>
+        <!--class CheckBoxID-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="86.4141" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="1685.5" y="716"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="1685.5" y="716"/>
+        <ellipse cx="1700.5" cy="732" fill="#EB937F" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1704.6094,738 L1696.8906,738 L1696.8906,725.6094 L1704.6094,725.6094 L1704.6094,727.7656 L1699.3438,727.7656 L1699.3438,730.4375 L1704.1094,730.4375 L1704.1094,732.5938 L1699.3438,732.5938 L1699.3438,735.8438 L1704.6094,735.8438 L1704.6094,738 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="1714.5" y="736.1543">CheckBoxID</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1686.5" x2="1788.5" y1="748" y2="748"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="1691.5" y="762.2104">SHOWAXIS</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="1691.5" y="775.0151">SHOWTERRAIN</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="12" x="1691.5" y="787.8198">...</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1686.5" x2="1788.5" y1="794.4141" y2="794.4141"/>
+        <!--class FixedCamera-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="550.5" y="743"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="550.5" y="743"/>
+        <ellipse cx="565.5" cy="759" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M568.4688,764.6406 Q567.8906,764.9375 567.25,765.0781 Q566.6094,765.2344 565.9063,765.2344 Q563.4063,765.2344 562.0781,763.5938 Q560.7656,761.9375 560.7656,758.8125 Q560.7656,755.6875 562.0781,754.0313 Q563.4063,752.375 565.9063,752.375 Q566.6094,752.375 567.25,752.5313 Q567.9063,752.6875 568.4688,752.9844 L568.4688,755.7031 Q567.8438,755.125 567.25,754.8594 Q566.6563,754.5781 566.0313,754.5781 Q564.6875,754.5781 564,755.6563 Q563.3125,756.7188 563.3125,758.8125 Q563.3125,760.9063 564,761.9844 Q564.6875,763.0469 566.0313,763.0469 Q566.6563,763.0469 567.25,762.7813 Q567.8438,762.5 568.4688,761.9219 L568.4688,764.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80" x="579.5" y="763.1543">FixedCamera</text>
+        <!--class FirstPersonCamera-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="175" x="698" y="722"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="175" x="698" y="722"/>
+        <ellipse cx="723.8" cy="738" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M726.7688,743.6406 Q726.1906,743.9375 725.55,744.0781 Q724.9094,744.2344 724.2063,744.2344 Q721.7063,744.2344 720.3781,742.5938 Q719.0656,740.9375 719.0656,737.8125 Q719.0656,734.6875 720.3781,733.0313 Q721.7063,731.375 724.2063,731.375 Q724.9094,731.375 725.55,731.5313 Q726.2063,731.6875 726.7688,731.9844 L726.7688,734.7031 Q726.1438,734.125 725.55,733.8594 Q724.9563,733.5781 724.3313,733.5781 Q722.9875,733.5781 722.3,734.6563 Q721.6125,735.7188 721.6125,737.8125 Q721.6125,739.9063 722.3,740.9844 Q722.9875,742.0469 724.3313,742.0469 Q724.9563,742.0469 725.55,741.7813 Q726.1438,741.5 726.7688,740.9219 L726.7688,743.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="119" x="740.2" y="742.1543">FirstPersonCamera</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="699" x2="872" y1="754" y2="754"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="699" x2="872" y1="762" y2="762"/>
+        <ellipse cx="709" cy="773.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="118" x="718" y="776.2104">FirstPersonCamera()</text>
+        <ellipse cx="709" cy="786.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="718" y="789.0151">void apply(GL2 gl, GLU glu)</text>
+        <!--class FlyingCamera-->
+        <rect fill="#90EE90" filter="url(#f1jdf4o85r2774)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="378" x="908.5" y="722"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="378" x="908.5" y="722"/>
+        <ellipse cx="1051.75" cy="738" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1054.7188,743.6406 Q1054.1406,743.9375 1053.5,744.0781 Q1052.8594,744.2344 1052.1563,744.2344 Q1049.6563,744.2344 1048.3281,742.5938 Q1047.0156,740.9375 1047.0156,737.8125 Q1047.0156,734.6875 1048.3281,733.0313 Q1049.6563,731.375 1052.1563,731.375 Q1052.8594,731.375 1053.5,731.5313 Q1054.1563,731.6875 1054.7188,731.9844 L1054.7188,734.7031 Q1054.0938,734.125 1053.5,733.8594 Q1052.9063,733.5781 1052.2813,733.5781 Q1050.9375,733.5781 1050.25,734.6563 Q1049.5625,735.7188 1049.5625,737.8125 Q1049.5625,739.9063 1050.25,740.9844 Q1050.9375,742.0469 1052.2813,742.0469 Q1052.9063,742.0469 1053.5,741.7813 Q1054.0938,741.5 1054.7188,740.9219 L1054.7188,743.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="1072.25" y="742.1543">FlyingCamera</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="909.5" x2="1285.5" y1="754" y2="754"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="909.5" x2="1285.5" y1="762" y2="762"/>
+        <ellipse cx="919.5" cy="773.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="352" x="928.5" y="776.2104">FirstPersonCamera(Vector3f eye, Vector3f center, Vector3f up)</text>
+        <ellipse cx="919.5" cy="786.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="928.5" y="789.0151">void apply(GL2 gl, GLU glu)</text>
+        <path d="M1194.85,638.95 C1227.7,661.05 1268.36,689.22 1303.5,716 C1314.68,724.52 1326.76,734.64 1336.25,742.81 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="1190.71,644.61,1177.97,627.67,1198.49,632.97,1190.71,644.61" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1353.5,775.18 C1353.5,800.57 1353.5,852.53 1353.5,889.46 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1353.5,894.8,1357.5,885.8,1353.5,889.8,1349.5,885.8,1353.5,894.8" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1100.41,932 C1140.58,932 1183.01,932 1221.42,932 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1095.02,932,1104.02,936,1100.02,932,1104.02,928,1095.02,932" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="90" x="1113.25" y="925.0669">defaultShader</text>
+        <path d="M1132.5,439.42 C1132.5,479 1132.5,533.2 1132.5,566.35 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1132.5,426.35,1128.5,432.35,1132.5,438.35,1136.5,432.35,1132.5,426.35" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="1133.5" y="505.0669">objects</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="1124.7781" y="555.5823">*</text>
+        <path d="M1082.71,426.12 C1037.6,458.83 970.63,507.41 919.84,544.25 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="915.6,547.33,925.2352,545.2896,919.6492,544.3968,920.5421,538.8109,915.6,547.33" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1187.94,224.5 C1238.12,224.5 1288.31,224.5 1338.49,224.5 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1182.76,224.5,1191.76,228.5,1187.76,224.5,1191.76,220.5,1182.76,224.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1082.21,231.8 C986.26,244.29 770.74,274.61 592.5,316 C524.44,331.81 447.31,355.98 399.04,371.89 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="394.17,373.5,403.9687,374.493,398.9205,371.9403,401.4732,366.8922,394.17,373.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1132.5,240.79 C1132.5,264.71 1132.5,311.83 1132.5,346.34 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1132.5,351.76,1136.5,342.76,1132.5,346.76,1128.5,342.76,1132.5,351.76" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M351.5,405.15 C351.5,441.61 351.5,534.28 351.5,575.59 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="351.5,580.83,355.5,571.83,351.5,575.83,347.5,571.83,351.5,580.83" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M335.91,405.15 C297.93,442.05 200.68,536.55 158.97,577.08 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="155.11,580.83,164.3515,577.4248,158.6952,577.3448,158.7752,571.6885,155.11,580.83" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1454.6,273.75 C1488.64,351.61 1554.68,502.63 1582.57,566.42 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1448.08,276.32,1446.48,255.19,1460.91,270.71,1448.08,276.32" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1561.92,639.65 C1541.33,665.19 1515.23,697.57 1495.53,722 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <ellipse cx="1566.5174" cy="633.9468" fill="#FFFFFF" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1561.4948" x2="1571.54" y1="640.1736" y2="627.72"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1560.2906" x2="1572.7442" y1="628.9242" y2="638.9694"/>
+        <path d="M1595.5,642.81 C1595.5,667.82 1595.5,698.57 1595.5,722 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <ellipse cx="1595.5" cy="635.72" fill="#FFFFFF" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1595.5" x2="1595.5" y1="643.72" y2="627.72"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1587.5" x2="1603.5" y1="635.72" y2="635.72"/>
+        <path d="M1631.96,639.08 C1652.83,662.6 1678.98,692.06 1700.02,715.77 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <ellipse cx="1627.1916" cy="633.7022" fill="#FFFFFF" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1632.5032" x2="1621.88" y1="639.6844" y2="627.72"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1621.2094" x2="1633.1738" y1="639.0138" y2="628.3906"/>
+        <path d="M758.12,657.75 C711.62,688.5 658.66,723.51 629.25,742.96 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="754.36,651.85,774.91,646.66,762.08,663.53,754.36,651.85" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M941.39,657.69 C974.9,679.22 1011.68,702.85 1041.11,721.77 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="937.26,663.36,924.22,646.66,944.83,651.58,937.26,663.36" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M821.85,665.67 C814.26,684.97 806.27,705.25 799.73,721.87 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="815.41,662.92,829.26,646.87,828.44,668.05,815.41,662.92" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1195.88,438.54 C1256.11,484.66 1343.04,551.23 1381.69,580.83 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1191.29,443.84,1179.66,426.12,1199.8,432.72,1191.29,443.84" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <!--
+@startuml
+
+hide empty member
+
+
+class GS {
+    + {static} double tAnim;
+    + {static} float vDist
+    + {static} float theta
+    + {static} float phi
+    + {static} Set<Character> keysPressed
+    ...
+}
+
+class Material {
+    + Vector3f ambient;
+    + Vector3f diffuse;
+    + Vector3f specular;
+    + float shininess;
+    + Material(Vector3f a, Vector3f d, Vector3f s, float sh)
+    + void use(GL2 gl)
+}
+
+interface Renderable {
+    void render(GL2 gl, GLUT glut, double tAnim, double dt);
+}
+
+class ShaderProgram {
+    - int programID
+    - String shaderName
+   + int getProgramID()
+   + void useProgram(GL2 gl)
+   + void setUniform(GL2 gl, String name, float value)
+      + void setUniform(GL2 gl, String name, int value)
+         + void setUniform(GL2 gl, String name, boolean value)
+ }
+
+class Cube #lightgreen implements Renderable 
+
+class ShaderPrograms #lightgreen {
+    + {static} void setupShaders(GL2 gl, GLU glu)
+    +ShaderProgram useDefaultShader(GL2 gl)
+    }
+
+Cube - -> ShaderPrograms 
+
+ShaderProgram <-  ShaderPrograms: defaultShader
+
+class TextureImg {
+    + TextureImg(String path)
+    + void bind(GL2 gl) 
+}
+
+class Camera  {
+  # Vector3f eye
+  # Vector3f center
+  # Vector3f up
+  + void apply(GL2 gl, GLU glu)
+}
+
+note left of Camera
+apply(...)
+  glMatrixMode(GL_MODELVIEW)
+  glLoadIdentity()
+  <i>// set head light
+  glLightfv(...) 
+  <i>// set Camera parameters
+  glLookAt(eye,center,up)
+end note
+
+class Renderer  {
+    + {abstract} void initObjects();
+    + void display(GLAutoDrawable glAutoDrawable)
+}
+
+note left of Renderer
+   display() 
+        dt = <i>render time of last frame
+        <i>// set sky color
+        <b>if</b> (DAYNIGHT==0) glClearColor(lightBlue);
+        <b>else</b> glClearColor(darkBlue); 
+        camera.apply(...)
+        <b>for</b> (Renderable o : objects) {
+            o.render(gl, glut, GS.tAnim, dt);
+        }
+end note
+
+Renderer *- -  "*" Renderable : objects
+
+Renderer - -> Camera
+
+class Base {
++ void setRenderer(Renderer r)
+}
+
+MainFrame <- Base
+MainFrame - -> GLJPanel
+MainFrame - -> Renderer
+JPanel <- MainFrame : checkBoxPanel
+ComboBox "*" <-MainFrame
+JPanel <- MainFrame : slidersPanel
+GLJPanel - ->MouseEventListener
+GLJPanel - ->KeyEventListener
+
+note bottom of KeyEventListener
+ adds keys to GS.keysPressed
+end note
+
+note bottom of MouseEventListener
+adapts vDist, theta, and phi in GS 
+end note
+
+class Sandbox #lightgreen {
+  + static void main(String[] a)
+ }
+ 
+class SandboxRenderer #lightgreen
+
+Base <|- - - Sandbox
+ 
+enum SliderID #lightgreen {
+   SLIDERA
+   SLIDERB
+}
+
+enum ComboBoxID #lightgreen{ 
+   VIEWMODE
+   DAYNIGHT 
+ }
+ 
+enum CheckBoxID #lightgreen {
+  SHOWAXIS
+  SHOWTERRAIN
+  ...
+ }
+
+Sandbox +- - SliderID
+Sandbox +- - ComboBoxID
+Sandbox +- - CheckBoxID
+
+class FixedCamera #lightgreen
+class FirstPersonCamera #lightgreen {
+    +FirstPersonCamera()
+    +void apply(GL2 gl, GLU glu)
+}
+class FlyingCamera #lightgreen {
+    +FirstPersonCamera(Vector3f eye, Vector3f center, Vector3f up)
+    +void apply(GL2 gl, GLU glu)
+}
+
+Camera <|- - FixedCamera 
+Camera <|- - FlyingCamera
+Camera <|- - FirstPersonCamera
+
+Renderer <|- - SandboxRenderer
+
+hide JPanel
+hide ComboBox
+hide TextureImg
+
+GS -[hidden]- MainFrame
+Material -[hidden] GS
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 18:18:59 CEST 2017)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14.0.1+8
+Operating System: Linux
+OS Version: 5.8.6-201.fc32.x86_64
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>
